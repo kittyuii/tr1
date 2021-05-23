@@ -1,0 +1,33 @@
+{
+    "name": "Trojan-Go",
+    "description": "Deploy Trojan-Go to Heroku.",
+    "keywords": [
+        "Trojan-Go"
+    ],
+    "env": {
+        "REMOTE_ADDR": {
+            "value": "example.com"
+        },
+        "REMOTE_PORT": {
+            "value": "80"
+        },
+        "TROJAN_PASSWORD": {
+            "value": ""
+        },
+        "WEBSOCKET_PATH": {
+            "value": "/"
+        },
+        "SHADOWSOCKS_ENABLED": {
+            "value": "true"
+        },
+        "SHADOWSOCKS_METHOD": {
+            "value": "AES-128-GCM"
+        },
+        "SHADOWSOCKS_PASSWORD": {
+            "value": ""
+        }
+    },
+    "website": "https://github.com/usokn/heroku-trojan-go",
+    "repository": "https://github.com/usokn/heroku-trojan-go",
+    "stack": "container"
+}
