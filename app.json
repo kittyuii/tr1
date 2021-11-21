@@ -34,7 +34,7 @@
             "value": "true"
         },
         "SHADOWSOCKS_METHOD": {
-            "description":"加密方式,合法值AES-128-GCM\AES-256-GCM\CHACHA20-IETF-POLY1305",
+            "description":"加密方式,合法值AES-128-GCM;AES-256-GCM;CHACHA20-IETF-POLY1305",
             "value": "AES-128-GCM"
         },
         "SHADOWSOCKS_PASSWORD": {
