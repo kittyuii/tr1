@@ -11,7 +11,7 @@
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/main/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/waloyn/trojan-go/main/Caddyfile"
         },
         "REMOTE_ADDR": {
             "description":"远程地址",
