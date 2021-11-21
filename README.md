@@ -1,3 +1,3 @@
 # Trojan-Go
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/waloyn/heroku-trojan-go)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/waloyn/trojan-go)
