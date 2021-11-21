@@ -30,15 +30,15 @@
             "value": "/trojango"
         },
         "SHADOWSOCKS_ENABLED": {
-            "description":"是否启用SS HAED加密",
+            "description":"是否启用SS AEAD加密",
             "value": "true"
         },
         "SHADOWSOCKS_METHOD": {
-            "description":"加密方式",
+            "description":"加密方式,合法值AES-128-GCM AES-256-GCM CHACHA20-IETF-POLY1305",
             "value": "AES-128-GCM"
         },
         "SHADOWSOCKS_PASSWORD": {
-            "description":"SS HAED加密密码",
+            "description":"SS AEAD加密密码",
             "value": ""
         }
     },
