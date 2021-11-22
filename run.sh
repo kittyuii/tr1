@@ -41,4 +41,4 @@ wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/cadd
 wget -qO- $CONFIGCADDY  >/etc/caddy/Caddyfile
 
 /usr/local/bin/trojan-go -config /usr/local/etc/trojan-go/config.yaml &
-caddy run --config /etc/caddy/Caddyfile
+caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
