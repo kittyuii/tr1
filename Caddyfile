@@ -14,4 +14,4 @@ header Connection *Upgrade*
 header Upgrade    websocket
 path /trojango
 }
-reverse_proxy @websocket_trojango 127.0.0.1:$PORT
+reverse_proxy @websocket_trojango unix//etc/caddy/trojan
