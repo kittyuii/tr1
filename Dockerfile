@@ -1,7 +1,7 @@
 FROM alpine:edge
 
 RUN apk update && \
-    apk add --no-cache ca-certificates caddy tor wget && \
+    apk add --no-cache ca-certificates caddy && \
     rm -rf /var/cache/apk/*
 
 ADD run.sh /run.sh
