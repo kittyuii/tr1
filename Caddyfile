@@ -7,9 +7,3 @@ header {
     X-Frame-Options DENY
     Referrer-Policy no-referrer-when-downgrade
 }
-@websocket_trojango {
-header Connection *Upgrade*
-header Upgrade    websocket
-path /trojango
-}
-reverse_proxy @websocket_trojango 127.0.0.1:443
