@@ -1,4 +1,4 @@
-:$PORT
+:80
 root * /usr/share/caddy
 file_server browse
 header {
@@ -12,4 +12,4 @@ header Connection *Upgrade*
 header Upgrade    websocket
 path /trojango
 }
-reverse_proxy @websocket_trojango unix//etc/caddy
+reverse_proxy @websocket_trojango 127.0.0.1:443
