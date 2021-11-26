@@ -1,6 +1,9 @@
 :$CAPORT
 root * /usr/share/caddy
 file_server browse
+
+tls internal
+
 header {
     X-Robots-Tag none
     X-Content-Type-Options nosniff
