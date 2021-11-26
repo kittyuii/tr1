@@ -18,7 +18,7 @@ run-type: server
 local-addr: 0.0.0.0
 local-port: $PORT
 remote-addr: 127.0.0.1
-remote-port: 80
+remote-port: $CAPORT
 log-level: 5
 password:
   - $TROJAN_PASSWORD
