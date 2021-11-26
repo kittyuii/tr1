@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy && \
