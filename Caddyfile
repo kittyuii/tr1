@@ -1,4 +1,4 @@
-:$PORT
+:$CAPORT
 root * /usr/share/caddy
 file_server browse
 header {
