@@ -27,7 +27,7 @@
         },
         "WEBSOCKET_PATH": {
             "description":"WS路径",
-            "value": "/trojango"
+            "value": "/"
         },
         "SHADOWSOCKS_ENABLED": {
             "description":"是否启用SS AEAD加密",
